@@ -19,7 +19,8 @@ h1{
 }
 .hire-me-button{
     text-decoration: none;
-    background-color: rgb(253, 194, 84);
+    background-image: linear-gradient(tomato, gold);
+    font-weight: 700;
     color: black;
     padding: 7px 30px;
     border-radius: 5px;
