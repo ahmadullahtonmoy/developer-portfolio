@@ -16,6 +16,9 @@ body{
 h1{
     font-size: 45px;
 }
+.experience-item h2{
+    font-size: 40px;
+}
 .orange-color{
     color: orange;
 }
@@ -45,7 +48,11 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 }
-
+.experiences-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 .experience-item{
     box-shadow: 10px 10px 40px gray;
     width: 40%;
@@ -53,4 +60,19 @@ h1{
     margin-right: 5%;
     padding-left: 25px;
     padding-right: 25px;
+    border-radius: 10px;
+    
+}
+#full-stack-dev{
+    border-left: solid 5px;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#baby-dev{
+    border-left: solid 5px;
+    border-image: linear-gradient(red, yellow);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
